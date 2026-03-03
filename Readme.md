@@ -121,6 +121,7 @@ The dashboard enables data-driven business decision-making.
 ---
 
 ## 🏗 System Architecture
+````
 Excel (Raw Data Cleaning)
     ↓
 Python (Data Preprocessing & Import to MySQL)
@@ -128,6 +129,7 @@ Python (Data Preprocessing & Import to MySQL)
 MySQL (Data Storage & SQL Analysis)
     ↓
 Power BI (Data Modeling & Dashboard Creation)
+````
 
 ---
 
@@ -208,7 +210,7 @@ Key Fields:
 ---
 
 ## 📁 Project Structure
-project-root/
+````project-root/
 │
 ├── data/
 │   ├── raw_data.xlsx
@@ -231,6 +233,7 @@ project-root/
 │   └── insights_and_recommendations.md
 │
 └── README.md
+````
 
 ## 🔐 Security & Data Integrity
 
@@ -283,6 +286,7 @@ project-root/
 This project demonstrates how structured SQL analytics combined with Python preprocessing and Power BI visualization can transform raw sales data into actionable business intelligence.  
 
 It provides a scalable foundation for revenue analysis, customer segmentation, performance monitoring, and strategic business decision-making.
+
 
 
 
