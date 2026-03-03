@@ -280,12 +280,14 @@ Key Fields:
 - Project demonstrates an end-to-end real-world analytics workflow  
 
 ---
+![image alt](https://github.com/TusharRajput018/SQL-Sales-Performance-and-Business-Intelligence-Project/blob/37e279556d111af53bb82232c3b7d09eabaa1271/dashborad/Dashboard.png)
 
 ## 📌 Conclusion
 
 This project demonstrates how structured SQL analytics combined with Python preprocessing and Power BI visualization can transform raw sales data into actionable business intelligence.  
 
 It provides a scalable foundation for revenue analysis, customer segmentation, performance monitoring, and strategic business decision-making.
+
 
 
 
