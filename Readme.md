@@ -1,8 +1,8 @@
-# 📊 SQL Sales Performance Analysis & Business Intelligence Dashboard
+# SQL Sales Performance Analysis & Business Intelligence Dashboard
 
 ---
 
-## 📌 Introduction
+## 1. Introduction
 
 In today’s data-driven business environment, organizations generate large volumes of transactional sales data. However, raw data alone does not provide meaningful insights.  
 
@@ -12,7 +12,7 @@ It demonstrates an end-to-end analytics pipeline that enables revenue analysis, 
 
 ---
 
-## 🎯 Problem Statement
+## 2. Problem Statement
 
 Businesses often struggle to:
 
@@ -26,7 +26,7 @@ The absence of a structured analytics workflow leads to delayed insights and sub
 
 ---
 
-## 💡 Proposed Solution
+## 3. Proposed Solution
 
 This project implements a structured analytics pipeline that:
 
@@ -38,7 +38,7 @@ This project implements a structured analytics pipeline that:
 
 ---
 
-## 🎯 Objectives of the Project
+## 4. Objectives of the Project
 
 - Perform customer, product, and revenue analysis  
 - Calculate business KPIs (Revenue, Orders, AOV, CLV, Growth Trends)  
@@ -48,7 +48,7 @@ This project implements a structured analytics pipeline that:
 
 ---
 
-## 📊 Dataset
+## 5. Dataset
 
 - **Source:** Public e-commerce dataset (Kaggle)  
 - **Records:** ~200 transactions  
@@ -56,7 +56,7 @@ This project implements a structured analytics pipeline that:
 
 ---
 
-## 🛠 Tools & Technologies
+## 6. Tools & Technologies
 
 - **Microsoft Excel** – Initial data cleaning and preprocessing  
 - **Python (Pandas, NumPy)** – Structured data import into MySQL  
@@ -67,7 +67,7 @@ This project implements a structured analytics pipeline that:
 
 ---
 
-## 🔄 Project Workflow
+## 7. Project Workflow
 
 1. Data cleaning and validation in Excel  
 2. Data import into MySQL using Python (Pandas)  
@@ -79,7 +79,7 @@ This project implements a structured analytics pipeline that:
 
 ---
 
-## 🔄 Data Import Method (Python → MySQL)
+## 8. Data Import Method (Python → MySQL)
 
 After cleaning the dataset in Excel, the data was imported into MySQL using Python (Pandas) to ensure:
 
@@ -95,7 +95,7 @@ This reflects an industry-standard ETL-style workflow.
 
 ---
 
-## 📈 Key Analyses Performed
+## 9. Key Analyses Performed
 
 - Revenue and order analysis  
 - Customer behavior and repeat customer analysis  
@@ -106,7 +106,7 @@ This reflects an industry-standard ETL-style workflow.
 
 ---
 
-## 📊 Power BI Dashboard
+## 10. Power BI Dashboard
 
 The interactive dashboard provides:
 
@@ -120,7 +120,7 @@ The dashboard enables data-driven business decision-making.
 
 ---
 
-## 🏗 System Architecture
+## 11. System Architecture
 ````
 Excel (Raw Data Cleaning)
     ↓
@@ -133,7 +133,7 @@ Power BI (Data Modeling & Dashboard Creation)
 
 ---
 
-## 🔄 Data Flow Overview
+## 12. Data Flow Overview
 
 1. Raw CSV loaded in Excel  
 2. Cleaned dataset exported  
@@ -144,7 +144,7 @@ Power BI (Data Modeling & Dashboard Creation)
 
 ---
 
-## 🗄 Database Design (High-Level)
+## 13. Database Design (High-Level)
 
 ### Main Table: `Sales`
 
@@ -169,11 +169,11 @@ Key Fields:
 
 ---
 
-## 📁 Project Structure
+## 14. Project Structure
 
 ---
 
-## 🔄 Data Flow Overview
+## 15. Data Flow Overview
 
 1. Raw CSV loaded in Excel  
 2. Cleaned dataset exported  
@@ -184,7 +184,7 @@ Key Fields:
 
 ---
 
-## 🗄 Database Design (High-Level)
+## 16. Database Design (High-Level)
 
 ### Main Table: `Sales`
 
@@ -209,7 +209,7 @@ Key Fields:
 
 ---
 
-## 📁 Project Structure
+## 17. Project Structure
 ````project-root/
 │
 ├── data/
@@ -235,7 +235,7 @@ Key Fields:
 └── README.md
 ````
 
-## 🔐 Security & Data Integrity
+## 18. Security & Data Integrity
 
 - Controlled schema mapping during MySQL import  
 - Structured validation before analysis  
@@ -243,7 +243,7 @@ Key Fields:
 
 ---
 
-## ✅ Advantages
+## 19. Advantages
 
 - Structured and scalable analytics workflow  
 - Advanced SQL implementation (Aggregations, Window Functions)  
@@ -253,7 +253,7 @@ Key Fields:
 
 ---
 
-## ⚠ Limitations
+## 20. Limitations
 
 - Dataset limited to ~200 records  
 - Static historical dataset  
@@ -262,7 +262,7 @@ Key Fields:
 
 ---
 
-## 🔮 Future Enhancements
+## 21. Future Enhancements
 
 - Implement real-time database connection  
 - Add predictive sales forecasting model  
@@ -272,7 +272,7 @@ Key Fields:
 
 ---
 
-## 🏁 Final Outcome
+## 22. Final Outcome
 
 - Data transformed into SQL-ready analytical format  
 - KPIs such as revenue, orders, repeat customers, and trends accurately measured  
@@ -280,13 +280,16 @@ Key Fields:
 - Project demonstrates an end-to-end real-world analytics workflow  
 
 ---
+## 23. Dashboard
+
 ![image alt](https://github.com/TusharRajput018/SQL-Sales-Performance-and-Business-Intelligence-Project/blob/37e279556d111af53bb82232c3b7d09eabaa1271/dashborad/Dashboard.png)
 
-## 📌 Conclusion
+## 24. Conclusion
 
 This project demonstrates how structured SQL analytics combined with Python preprocessing and Power BI visualization can transform raw sales data into actionable business intelligence.  
 
 It provides a scalable foundation for revenue analysis, customer segmentation, performance monitoring, and strategic business decision-making.
+
 
 
 
