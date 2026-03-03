@@ -169,11 +169,7 @@ Key Fields:
 
 ---
 
-## 14. Project Structure
-
----
-
-## 15. Data Flow Overview
+## 14. Data Flow Overview
 
 1. Raw CSV loaded in Excel  
 2. Cleaned dataset exported  
@@ -184,7 +180,7 @@ Key Fields:
 
 ---
 
-## 16. Database Design (High-Level)
+## 15. Database Design (High-Level)
 
 ### Main Table: `Sales`
 
@@ -209,7 +205,7 @@ Key Fields:
 
 ---
 
-## 17. Project Structure
+## 16. Project Structure
 ````project-root/
 │
 ├── data/
@@ -235,7 +231,7 @@ Key Fields:
 └── README.md
 ````
 
-## 18. Security & Data Integrity
+## 17. Security & Data Integrity
 
 - Controlled schema mapping during MySQL import  
 - Structured validation before analysis  
@@ -243,7 +239,7 @@ Key Fields:
 
 ---
 
-## 19. Advantages
+## 18. Advantages
 
 - Structured and scalable analytics workflow  
 - Advanced SQL implementation (Aggregations, Window Functions)  
@@ -253,7 +249,7 @@ Key Fields:
 
 ---
 
-## 20. Limitations
+## 19. Limitations
 
 - Dataset limited to ~200 records  
 - Static historical dataset  
@@ -262,7 +258,7 @@ Key Fields:
 
 ---
 
-## 21. Future Enhancements
+## 20. Future Enhancements
 
 - Implement real-time database connection  
 - Add predictive sales forecasting model  
@@ -272,7 +268,7 @@ Key Fields:
 
 ---
 
-## 22. Final Outcome
+## 21. Final Outcome
 
 - Data transformed into SQL-ready analytical format  
 - KPIs such as revenue, orders, repeat customers, and trends accurately measured  
@@ -280,15 +276,16 @@ Key Fields:
 - Project demonstrates an end-to-end real-world analytics workflow  
 
 ---
-## 23. Dashboard
+## 22. Dashboard
 
 ![image alt](https://github.com/TusharRajput018/SQL-Sales-Performance-and-Business-Intelligence-Project/blob/37e279556d111af53bb82232c3b7d09eabaa1271/dashborad/Dashboard.png)
 
-## 24. Conclusion
+## 23. Conclusion
 
 This project demonstrates how structured SQL analytics combined with Python preprocessing and Power BI visualization can transform raw sales data into actionable business intelligence.  
 
 It provides a scalable foundation for revenue analysis, customer segmentation, performance monitoring, and strategic business decision-making.
+
 
 
 
